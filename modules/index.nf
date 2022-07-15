@@ -1,7 +1,7 @@
 process CreateIndex {
 
     cpus 4
-    container "salmon:1.0"
+    container "combinelab/salmon:1.9.0"
     publishDir path: "${params.refDir}", mode: "copy"
 
     input:
